@@ -21,8 +21,8 @@ const john = {
 ES5에서는 다음처럼 객체의 속성값을 하나씩 가져와야 했다.
 
 ```js
-const name = john.name;
-const status = john.status;
+var name = john.name;
+var status = john.status;
 ```
 
 ES6에서는 다음과 같이 가져올 수 있다.

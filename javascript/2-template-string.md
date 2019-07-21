@@ -4,11 +4,11 @@
 기존 자바스크립트에서 문자열을 조합할때는 다음과 같이 + 기호를 사용했다.
 
 ```js
-const name = 'John';
-const age = 20;
-const job = 'programmer';
+var name = 'John';
+var age = 20;
+var job = 'programmer';
 
-const str = '안녕 내 이름은 ' + name + '. 나는 ' + age + '살이고 직업은 ' + job + '야.';
+var str = '안녕 내 이름은 ' + name + '. 나는 ' + age + '살이고 직업은 ' + job + '야.';
 
 console.log(str); // output: 안녕 내 이름은 John. 나는 20살이고 직업은 programmer야.
 ```
