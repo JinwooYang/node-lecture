@@ -128,3 +128,9 @@ const multiplier = {
 multiplier.multiplyAll();
 ```
 
+출력:
+```
+2
+4
+6
+```
