@@ -48,7 +48,7 @@ console.log(amy);     // Amy
 console.log(matilda); // Unknown
 ```
 
-나머지 패턴을 이용하면 배열의 나머지 요소들을 한번에 가져올 수 있다.
+`...`을 이용하면 배열의 나머지 요소들을 한번에 가져올 수 있다.
 ```js
 const [peter, ...restFriends] = friends;
 
