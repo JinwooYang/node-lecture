@@ -3,7 +3,8 @@
 
 변수 선언 방식에는 세가지 키워드 (var, let, const)가 존재한다.
 
-# var
+var
+--
 
 ES6 이전에 사용하던 방식.
 변수의 재선언이 가능하며 *function-scoped* 이기 떄문에 다음 코드가 문제없이 동작한다.
@@ -40,7 +41,9 @@ console.log(a); // output: 3
 
 위와 같은 동작을 **호이스팅(hoisting)** 이라고 부르며 var는 function 단위로 호이스팅 되기 떄문에 의도치 않은 실수를 일으키기 쉬워진다.
 
-# let, const
+let, const
+--
+
 ES6 이후로 추가된 키워드. var와는 다르게 변수의 재선언이 불가능하고 *block-scoped* 이므로 다음 코드에서 에러가 발생한다.
 
 ```js
@@ -82,7 +85,8 @@ if (true) {
 그렇다고해서 위 코드에서 에러가 발생하지 않는건 아니다.
 let 키워드는 할당되지 않은 변수를 사용할때 에러를 일으키므로 `console.log(a);` 를 실행할 때 `ReferrenceError` 가 발생한다.
 
-# let과 const의 차이
+let과 const의 차이
+--
 
 let 키워드로 선언한 변수는 재할당이 가능하지만 const로 선언한 변수는 재할당이 불가능하다.
 
